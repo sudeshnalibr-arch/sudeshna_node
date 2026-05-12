@@ -49,6 +49,36 @@ class HomeController{
             title:'Register page'
         })
     }
+    forgot_password(req,res){
+        res.render('forgot_password',{
+            title:'Register page'
+        })
+    }
+    utilitiesAnimation(req,res){
+        res.render('utilitiesAnimation',{
+            title:'Animation page'
+        })
+    }
+    utilitiesBorder(req,res){
+        res.render('utilitiesBorder',{
+            title:'Border page'
+        })
+    }
+    utilitiesColor(req,res){
+        res.render('utilitiesColor',{
+            title:'Color page'
+        })
+    }
+    utilitiesOthers(req,res){
+        res.render('utilitiesOthers',{
+            title:'Other pages'
+        })
+    }
+    charts(req,res){
+        res.render('charts',{
+            title:'Charts page'
+        })
+    }
 }
 
 
